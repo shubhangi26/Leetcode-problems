@@ -28,7 +28,7 @@ class Solution
                if (arr[j]<arr[minpos])
                minpos = j;
            }
-           swap (&arr[i],&arr[minpos]);
+           swap (arr[i],arr[minpos]);
         }
       
     }
