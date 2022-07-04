@@ -16,7 +16,12 @@ public:
                 dp[i+1]=dp[i]+1;
             }
         }
-        
-        return accumulate(dp.begin(), dp.end(), 0);
+        int result=0;
+	 for (int i = 0; i < n; i++)
+	 {
+		 result+=dp[i];
+		
+	 }
+	 return result; //accumulate(dp.begin(), dp.end(), 0);
     }
 };
