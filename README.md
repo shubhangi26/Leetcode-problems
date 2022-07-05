@@ -1,2 +1,2 @@
 # Leetcode-problems
-Leetcode problems solved by me in Java
+Leetcode problems solved by me in C++
